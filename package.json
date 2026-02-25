@@ -1,6 +1,6 @@
 {
   "name": "pos-system",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "main": "main.js",
   "description": "POS System Desktop App",
@@ -60,6 +60,13 @@
     "directories": {
       "output": "dist"
     },
+    "publish": [
+      {
+        "provider": "github",
+        "owner": "Fahpyp",
+        "repo": "pos-system"
+      }
+    ],
     "files": [
       "main.js",
       {
